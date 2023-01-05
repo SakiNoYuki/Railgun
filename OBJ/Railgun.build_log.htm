@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=32B1Q-NBFHC-GK9BG-VZ9X9-FS84D-97YKM
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  D:\Software\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+D:\Backup\Workspace\GitWorkspace\STM32 F103C8T6 Railgun\USER\Railgun.uvprojx
+Project File Date:  08/14/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 1 (build 106)', folder: 'D:\Software\keil\ARM\ARMCC\Bin'
+Build target 'Railgun'
+compiling tim3_sg.c...
+..\SYSTEM\usart\usart.h(18): warning:  #9-D: nested comment is not allowed
+  //********************************************************************************
+..\SYSTEM\usart\usart.h(41): warning:  #1-D: last line of file ends without a newline
+  */
+..\HARDWARE\TIMER\tim3_sg.c(150): warning:  #1-D: last line of file ends without a newline
+  */
+..\HARDWARE\TIMER\tim3_sg.c: 3 warnings, 0 errors
+compiling key.c...
+compiling main.c...
+..\HARDWARE\Railgun\railgun.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(24): warning:  #177-D: variable "sgpwmval"  was declared but never referenced
+  	uint16_t sgpwmval=Angle_60;
+main.c(25): warning:  #177-D: variable "dir"  was declared but never referenced
+  	uint8_t dir=1;
+main.c: 3 warnings, 0 errors
+compiling HC06.c...
+..\HARDWARE\HC06\HC06.c(144): warning:  #940-D: missing return statement at end of non-void function "USART1_IRQHandler" 
+  } 
+..\HARDWARE\HC06\HC06.c: 1 warning, 0 errors
+compiling railgun.c...
+..\HARDWARE\Railgun\railgun.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\Railgun\railgun.c(68): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\Railgun\railgun.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=3200 RO-data=268 RW-data=72 ZI-data=1632  
+FromELF: creating hex file...
+"..\OBJ\Railgun.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:\Software\keil\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
